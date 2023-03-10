@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Hand Gesture App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+    <h3 class="btn btn-warning heading">Hand gesture app
+      <span>&#128072</span>
+      <span>&#9996</span>
+      <span>&#128077</span>
+      <span>&#128400</span>
+      <span>&#128076</span>
+   
+    </h3>
+
+    <br><br>
+
+    </center>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <div id="result"></div>
+        <br><br>
+        <button onclick="check();" class="btn btn-success">Predict  gesture</button>
+        </div>
+        <br><br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Webcam view - </label>
+          <div id="camera"></div>
+          <br><br>
+          <button onclick="takesnapshot();" class="btn btn-success">Capture Image</button>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Prediction-</label>
+          <p class="gesture name" id="result_gesture_name"></p>
+          <p class="gesture" id="update_gesture"></p>
+
+          
+        </div>
+
+
+    
+
+  
+
+
+
+</html>
